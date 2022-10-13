@@ -1,0 +1,12 @@
+body {
+    color: green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 10px solid cyan
+}
