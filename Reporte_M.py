@@ -15,9 +15,9 @@ import pandas as pd
 from pandas import ExcelWriter
 arcpy.env.overwriteOutput = True;
 ##ws = arcpy.env.workspace = arcpy.GetParameterAsText(0)
-ws = arcpy.env.workspace = r"D.gdb"  #--> GDB PATH
+ws = arcpy.env.workspace = r"D.gdb" #--> GDB PATH
 ##excelOut = arcpy.GetParameterAsText(1)
-excelOut = r"D:\Process\PRUEBAS_PYTHON" #--> TRASH PATH
+excelOut = r"D:\Process\PRUEBAS_PYTHON" #--> OUTPUT PATH
 features = arcpy.ListFeatureClasses()
 try:
     for fc in features:
