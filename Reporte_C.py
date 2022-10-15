@@ -17,7 +17,7 @@ arcpy.env.overwriteOutput = True;
 ##ws = arcpy.env.workspace = arcpy.GetParameterAsText(0)
 ws = arcpy.env.workspace = r"Mant.gdb" #--> GDB PATH
 ##excelOut = arcpy.GetParameterAsText(1)
-excelOut = r"Borrardor" #--> TRASH PATH
+excelOut = r"Borrardor" #--> OUTPUT PATH
 features = arcpy.ListFeatureClasses()
 try:
     for fc in features:
