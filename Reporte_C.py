@@ -15,9 +15,9 @@ import pandas as pd
 from pandas import ExcelWriter
 arcpy.env.overwriteOutput = True;
 ##ws = arcpy.env.workspace = arcpy.GetParameterAsText(0)
-ws = arcpy.env.workspace = r"Mant.gdb"
+ws = arcpy.env.workspace = r"Mant.gdb" #--> GDB PATH
 ##excelOut = arcpy.GetParameterAsText(1)
-excelOut = r"Borrardor"
+excelOut = r"Borrardor" #--> TRASH PATH
 features = arcpy.ListFeatureClasses()
 try:
     for fc in features:
