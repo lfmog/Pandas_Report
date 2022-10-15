@@ -2,12 +2,6 @@
 # -*- coding: utf-8 -*-
 import arcpy,os, string,re, math
 from arcpy import env
-import requests
-import time
-import argparse
-import unicodedata
-import sys
-reload(sys)
 sys.setdefaultencoding('utf-8')
 ##sys.stdout.reconfigure(encoding='utf-8')
 arcpy.env.overwriteOutput = True;
