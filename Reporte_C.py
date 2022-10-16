@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import arcpy,os, string,re, math
 from arcpy import env
-sys.setdefaultencoding('utf-8')
+#sys.setdefaultencoding('utf-8')
 ##sys.stdout.reconfigure(encoding='utf-8')
 arcpy.env.overwriteOutput = True;
 import pandas as pd
